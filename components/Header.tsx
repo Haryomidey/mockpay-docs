@@ -62,7 +62,7 @@ export const Header: React.FC<HeaderProps> = ({ toggleSidebar }) => {
         <div className="w-9 h-9 bg-emerald-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-emerald-200">
           <Box size={22} />
         </div>
-        <span className="text-xl font-black tracking-tighter text-slate-900 hidden sm:block">Mockpay</span>
+        <span className="text-xl font-black tracking-tighter text-slate-900 block">Mockpay</span>
       </div>
 
       <div className="ml-8 relative hidden md:block w-64 lg:w-96" ref={searchRef}>
