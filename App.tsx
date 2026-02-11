@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import { Box, Twitter, Github } from 'lucide-react';
+import { Box, Twitter } from 'lucide-react';
 import { Header } from './components/Header';
 import { Sidebar } from './components/Sidebar';
 import { HomePage } from './pages/HomePage';
@@ -73,11 +73,7 @@ export const App: React.FC = () => {
             </div>
           </div>
           <div className="pt-8 border-t border-slate-200 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs font-medium">
-            <p>© {new Date().getFullYear()} Mockpay. Released under MIT License.</p>
-            <div className="flex gap-6">
-              <a href="#" className="hover:text-slate-600">Privacy Policy</a>
-              <a href="#" className="hover:text-slate-600">Terms of Service</a>
-            </div>
+            <p>© {new Date().getFullYear()} Mockpay.</p>
           </div>
         </div>
       </footer>
